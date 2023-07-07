@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualNetworks_myvnet_name": {
+            "value": "myvnet"
+        },
+        "serverfarms_jesumeappvnetasp_name": {
+            "value": "jesumeasparmfuncvnet"
+        },
+        "sites_jesumefunccgjamqz4f7jfo_name": {
+            "value": "jesumeapparmfuncvnet"
+        },
+        "components_jesumefunccgjamqz4f7jfo_name": {
+            "value": "jesumeaiarmfuncvnet"
+        },
+        "storageAccounts_cgjamqz4f7jfoazfunctions_name": {
+            "value": "jesumesaarmfuncvnet"
+        },
+        "networkSecurityGroups_myvnet_mysubnet_nsg_eastus_name": {
+            "value": "mysubvnet"
+        }
+    }
+}
