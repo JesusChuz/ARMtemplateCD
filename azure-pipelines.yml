@@ -12,7 +12,7 @@ pool:
 steps:
 - task: CopyFiles@2
   inputs:
-    Contents: 'OrangeIntelDeploy.json'
+    Contents: '**'
     TargetFolder: '$(build.artifactStagingDirectory)'
 - task: PublishBuildArtifacts@1
   inputs:
