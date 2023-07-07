@@ -193,6 +193,11 @@
                   "name": "jesumesbnamespace_SERVICEBUS",
                   "value": "Endpoint=sb://jesumesbnamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=9EWzcpfBSG+CgfTDd0SGp2AuDc50d3mKIgUQWY/vKr0=",
                   "slotSetting": false
+              },
+              {
+                  "name": "dummysetting",
+                  "value": "value1",
+                  "slotSetting": false
               }
             ]
           }
